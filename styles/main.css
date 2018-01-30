@@ -46,3 +46,9 @@ main {
 .mdl-mini-footer > ul > li {
   margin: 0 20px 0 20px;
 }
+
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
+}
