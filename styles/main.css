@@ -8,12 +8,14 @@
 h1 {
   color: hsla(0, 0%, 100%, 0.9);
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .slogan {
   color: hsla(0, 0%, 100%, 0.7);
   font-weight: lighter;
   font-size: 1.6rem;
+  text-transform: uppercase;
 }
 
 main {
@@ -38,4 +40,9 @@ main {
 
 .mdl-mini-footer > ul {
   margin: auto;
+  font-size: 3rem;
+}
+
+.mdl-mini-footer > ul > li {
+  margin: 0 20px 0 20px;
 }
